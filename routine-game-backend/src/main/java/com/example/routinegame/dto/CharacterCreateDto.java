@@ -1,4 +1,4 @@
-package com.example.routinegame.entity;
+package com.example.routinegame.dto;
 
 import lombok.Getter;
 import lombok.Setter;

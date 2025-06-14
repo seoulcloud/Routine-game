@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.routinegame.entity.CharacterCreateDto;
 import com.example.routinegame.repository.CharacterRepository;
 import com.example.routinegame.service.CharacterService;
+import com.example.routinegame.dto.CharacterCreateDto;
 import com.example.routinegame.entity.Character;
 
 import lombok.Getter;
