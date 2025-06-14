@@ -90,3 +90,28 @@ LevelLog
 | 루틴 3개 이상 성공   | 랜덤뽑기 + 1 캐릭터가 애교  |
 | 루틴 실패 3일 연속   | 랜덤뽑기 + 1 캐릭터가 툴툴댐|
 | 경험치 100 단위     | 진화                     |
+
+
+  
+엔티티 + 레포지토리 구성
+com.example.routinepet
+├── entity
+│   ├── User.java
+│   ├── Routine.java
+│   ├── RoutineLog.java
+│   ├── Character.java
+│   ├── LevelLog.java
+│   ├── Item.java
+│   ├── UserItem.java
+│   ├── GachaLog.java
+│   └── CharacterEmotion.java
+└── repository
+    ├── UserRepository.java
+    ├── RoutineRepository.java
+    ├── RoutineLogRepository.java
+    ├── CharacterRepository.java
+    ├── LevelLogRepository.java
+    ├── ItemRepository.java
+    ├── UserItemRepository.java
+    ├── GachaLogRepository.java
+    └── CharacterEmotionRepository.java
